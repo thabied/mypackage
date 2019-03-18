@@ -91,7 +91,7 @@ def quick_sort(items):
     if len_i <= 1:
         return items
 
-    pivot = items[index]
+    pivot = items[0]
     small = []  #initialize 3 empty lists
     large = []
     dup = []
